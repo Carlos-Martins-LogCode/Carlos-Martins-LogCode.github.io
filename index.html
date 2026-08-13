@@ -3,185 +3,160 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carlos Roberto Martins | Portfólio de Logística & Supply Chain</title>
+  <title>Carlos Roberto Martins | Logística & Dados</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-blue-500 selection:text-white">
+<body class="bg-zinc-950 text-zinc-200 font-sans antialiased selection:bg-indigo-500 selection:text-white">
 
-  <!-- Header / Navegação -->
-  <header class="sticky top-0 z-50 bg-slate-950/90 backdrop-blur-md border-b border-slate-800">
+  <!-- Navegação Central -->
+  <header class="sticky top-0 z-50 bg-zinc-950/80 backdrop-blur-lg border-b border-zinc-800">
     <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
       <div class="flex items-center gap-3">
-        <div class="w-3 h-3 rounded-full bg-blue-500 animate-pulse"></div>
-        <span class="font-bold text-white tracking-wide text-base">Carlos Roberto Martins</span>
+        <div class="w-3 h-3 rounded-full bg-indigo-500 animate-pulse"></div>
+        <span class="font-bold text-white tracking-widest text-sm uppercase">Hub Central</span>
       </div>
-      <nav class="flex gap-6 text-xs font-semibold text-slate-400">
-        <a href="#sobre" class="hover:text-blue-400 transition-colors">Sobre Mim</a>
-        <a href="#projetos" class="hover:text-blue-400 transition-colors">Projetos</a>
-        <a href="#competencias" class="hover:text-blue-400 transition-colors">Competências</a>
-        <a href="#contato" class="hover:text-blue-400 transition-colors">Contato</a>
+      <nav class="hidden md:flex gap-8 text-xs font-semibold text-zinc-400 tracking-wide">
+        <a href="#sobre" class="hover:text-indigo-400 transition-colors">Visão Geral</a>
+        <a href="#projetos" class="hover:text-indigo-400 transition-colors">Portfólio</a>
+        <a href="#competencias" class="hover:text-indigo-400 transition-colors">Skills</a>
       </nav>
     </div>
   </header>
 
-  <!-- Hero / Apresentação -->
-  <section id="sobre" class="max-w-6xl mx-auto px-6 pt-16 pb-12">
-    <div class="max-w-3xl">
-      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-semibold uppercase tracking-wider mb-6">
-        PORTFÓLIO PROFISSIONAL & ACADÊMICO
-      </div>
-      
-      <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-tight mb-6">
-        Otimização de Processos, Lean Logistics & Engenharia de Operações.
-      </h1>
-      
-      <p class="text-slate-300 text-lg leading-relaxed mb-8">
-        Estudante de Logística na Universidade Santo Amaro, focado na aplicação prática de metodologias Lean, análise de dados e redesenho de fluxos operacionais para redução de desperdícios e ganho de eficiência.
-      </p>
+  <!-- Hero Section (Design Central / Dados) -->
+  <section id="sobre" class="max-w-6xl mx-auto px-6 pt-20 pb-16 text-center md:text-left">
+    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-bold uppercase tracking-widest mb-8">
+      Portfólio de Projetos
+    </div>
 
-      <div class="flex flex-wrap gap-4">
-        <a href="#projetos" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold px-6 py-3 rounded-xl transition-all shadow-lg shadow-blue-600/20">
-          Ver Projetos
-        </a>
-        <a href="https://linkedin.com" target="_blank" class="bg-slate-900 border border-slate-700 hover:border-slate-500 text-slate-300 text-sm font-semibold px-6 py-3 rounded-xl transition-all">
-          Perfil no LinkedIn
-        </a>
-      </div>
+    <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight mb-6">
+      Conectando <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400">Logística de Alta Performance</span> e <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">Inteligência de Dados</span>.
+    </h1>
+
+    <p class="text-zinc-400 text-lg leading-relaxed max-w-3xl mb-10 md:mx-0 mx-auto">
+      Profissional formado em Logística e atualmente graduando em Ciência de Dados. Meu foco é unir metodologias de otimização operacional com análises avançadas para reduzir desperdícios, modelar processos e impulsionar a tomada de decisão estratégica na cadeia de suprimentos.
+    </p>
+
+    <div class="flex flex-wrap justify-center md:justify-start gap-4">
+      <a href="#projetos" class="bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-semibold px-8 py-3 rounded-xl transition-all shadow-lg shadow-indigo-600/20">
+        Explorar Projetos
+      </a>
+      <a href="https://linkedin.com" target="_blank" class="bg-zinc-900 border border-zinc-700 hover:border-zinc-500 text-zinc-300 text-sm font-semibold px-8 py-3 rounded-xl transition-all">
+        Conectar no LinkedIn
+      </a>
     </div>
   </section>
 
-  <hr class="border-slate-800/80 max-w-6xl mx-auto my-4">
+  <!-- Divisor Estilizado -->
+  <div class="w-full h-px bg-gradient-to-r from-zinc-950 via-zinc-800 to-zinc-950 my-4"></div>
 
   <!-- Seção de Projetos -->
-  <section id="projetos" class="max-w-6xl mx-auto px-6 py-12">
-    <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-10 gap-4">
-      <div>
-        <h2 class="text-2xl font-bold text-white flex items-center gap-3">
-          <span class="w-2 h-7 bg-blue-500 rounded-full"></span> Projetos & Estudos de Caso
-        </h2>
-        <p class="text-xs text-slate-400 mt-1">Simulações operacionais e projetos estruturados aplicados à cadeia de suprimentos.</p>
-      </div>
+  <section id="projetos" class="max-w-6xl mx-auto px-6 py-16">
+    <div class="mb-12 text-center md:text-left">
+      <h2 class="text-3xl font-bold text-white mb-2">Casos de Sucesso & Estudos</h2>
+      <p class="text-sm text-zinc-400">Aplicações práticas de engenharia de operações, dados e supply chain.</p>
     </div>
 
-    <!-- Grid de Cards de Projetos -->
-    <div class="grid md:grid-cols-2 gap-6">
-
-      <!-- CARD PROJETO 1 (Seu projeto atual) -->
-      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition-all group">
+    <div class="grid md:grid-cols-2 gap-8">
+      
+      <!-- CARD PROJETO 1 -->
+      <div class="bg-zinc-900/40 border border-zinc-800 rounded-2xl p-8 flex flex-col justify-between hover:border-indigo-500/50 hover:bg-zinc-900/80 transition-all duration-300 group shadow-2xl shadow-black/50">
         <div>
-          <div class="flex justify-between items-start mb-4">
-            <span class="px-2.5 py-1 rounded-md bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-xs font-semibold">
+          <div class="flex justify-between items-start mb-6">
+            <span class="px-3 py-1 rounded-md bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 text-xs font-bold tracking-wide">
               Lean Logistics / VSM
             </span>
-            <span class="text-xs text-slate-500">2026</span>
+            <span class="text-xs text-zinc-500 font-mono">2026</span>
           </div>
 
-          <h3 class="text-xl font-bold text-white group-hover:text-blue-400 transition-colors mb-2">
+          <h3 class="text-2xl font-bold text-white group-hover:text-indigo-400 transition-colors mb-4">
             Otimização do Tempo de Recebimento de Cargas
           </h3>
 
-          <p class="text-xs text-slate-300 leading-relaxed mb-6">
+          <p class="text-sm text-zinc-400 leading-relaxed mb-8">
             Aplicação de Lean Logistics, VSM, Ishikawa e 5W2H em uma operação de recebimento. Redução projetada de 75% no Dwell Time e aumento de +200% na capacidade operacional.
           </p>
 
-          <!-- Destaques / Tags -->
-          <div class="flex flex-wrap gap-2 text-xs text-slate-400 mb-6">
-            <span class="bg-slate-800/60 px-2.5 py-1 rounded-lg border border-slate-700/50">WMS & ERP</span>
-            <span class="bg-slate-800/60 px-2.5 py-1 rounded-lg border border-slate-700/50">Matriz de Riscos</span>
-            <span class="bg-slate-800/60 px-2.5 py-1 rounded-lg border border-slate-700/50">Análise Financeira (ROI)</span>
+          <div class="flex flex-wrap gap-2 text-xs text-zinc-400 mb-8 font-mono">
+            <span class="bg-zinc-950 px-3 py-1.5 rounded-lg border border-zinc-800">WMS & ERP</span>
+            <span class="bg-zinc-950 px-3 py-1.5 rounded-lg border border-zinc-800">Matriz de Riscos</span>
+            <span class="bg-zinc-950 px-3 py-1.5 rounded-lg border border-zinc-800">Análise (ROI)</span>
           </div>
         </div>
 
-        <!-- Botão para o Projeto (LEMBRE DE ATUALIZAR O LINK ABAIXO) -->
-        <a href="https://carlos-martins-logcode.github.io/portfolio-logistica/" target="_blank" class="w-full text-center bg-slate-800 hover:bg-blue-600 text-white font-semibold py-2.5 rounded-xl text-xs transition-colors border border-slate-700 hover:border-blue-500">
-          Acessar Estudo Completo →
+        <!-- LINK ATUALIZADO PARA O SEU PROJETO -->
+        <a href="https://carlos-martins-logcode.github.io/portfolio-logistica/" target="_blank" class="w-full text-center bg-indigo-600/10 hover:bg-indigo-600 text-indigo-400 hover:text-white font-semibold py-3 rounded-xl text-sm transition-all border border-indigo-500/20 hover:border-indigo-500">
+          Acessar Projeto Completo →
         </a>
       </div>
 
-      <!-- CARD PROJETO 2 (Placeholder para o seu próximo projeto) -->
-      <div class="bg-slate-900/50 border border-slate-800/80 rounded-2xl p-6 flex flex-col justify-between opacity-75">
+      <!-- CARD PROJETO 2 (Misterioso / Em Laboratório) -->
+      <div class="bg-zinc-900/20 border border-zinc-800/60 rounded-2xl p-8 flex flex-col justify-between border-dashed">
         <div>
-          <div class="flex justify-between items-start mb-4">
-            <span class="px-2.5 py-1 rounded-md bg-slate-800 text-slate-400 border border-slate-700 text-xs font-semibold">
-              Em Desenvolvimento
+          <div class="flex justify-between items-start mb-6">
+            <span class="px-3 py-1 rounded-md bg-zinc-800 text-zinc-400 border border-zinc-700 text-xs font-bold tracking-wide">
+              Em Laboratório
             </span>
-            <span class="text-xs text-slate-600">Breve</span>
           </div>
 
-          <h3 class="text-xl font-bold text-slate-400 mb-2">
-            Dimensionamento de Frota & Malha Logística
+          <h3 class="text-2xl font-bold text-zinc-500 mb-4">
+            Projeto em Desenvolvimento...
           </h3>
 
-          <p class="text-xs text-slate-500 leading-relaxed mb-6">
-            Estudo sobre roteirização, ocupação volumétrica de veículos e otimização do custo total de transporte (TCO).
+          <p class="text-sm text-zinc-600 leading-relaxed mb-8">
+            Explorando novas abordagens na interseção entre operações logísticas e ciência de dados. Estou estruturando o próximo desafio e os detalhes serão publicados em breve.
           </p>
 
-          <div class="flex flex-wrap gap-2 text-xs text-slate-600 mb-6">
-            <span class="bg-slate-900 px-2.5 py-1 rounded-lg border border-slate-800">Roteirização</span>
-            <span class="bg-slate-900 px-2.5 py-1 rounded-lg border border-slate-800">Custo do Frete</span>
+          <div class="flex flex-wrap gap-2 text-xs text-zinc-600 mb-8 font-mono">
+            <span class="bg-zinc-950/50 px-3 py-1.5 rounded-lg border border-zinc-800/50">Data Science</span>
+            <span class="bg-zinc-950/50 px-3 py-1.5 rounded-lg border border-zinc-800/50">Operations</span>
           </div>
         </div>
 
-        <button disabled class="w-full text-center bg-slate-950 text-slate-600 font-semibold py-2.5 rounded-xl text-xs border border-slate-800/50 cursor-not-allowed">
-          Projeto em Andamento
+        <button disabled class="w-full text-center bg-zinc-950/50 text-zinc-600 font-semibold py-3 rounded-xl text-sm border border-zinc-800/50 cursor-not-allowed">
+          Aguarde o Lançamento
         </button>
       </div>
 
     </div>
   </section>
 
-  <!-- Competências & Ferramentas -->
-  <section id="competencias" class="max-w-6xl mx-auto px-6 py-12">
-    <h2 class="text-2xl font-bold text-white mb-6 flex items-center gap-3">
-      <span class="w-2 h-7 bg-blue-500 rounded-full"></span> Competências & Metodologias
-    </h2>
+  <!-- Competências & Skills -->
+  <section id="competencias" class="max-w-6xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-white mb-10 text-center md:text-left">Tech Stack & Metodologias</h2>
 
-    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3 text-xs">
-      <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl text-center">
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-sm">
+      <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl hover:border-cyan-500/30 transition-colors">
+        <strong class="text-white block mb-1">Ciência de Dados</strong>
+        <span class="text-zinc-500 text-xs">Python, SQL & Análise</span>
+      </div>
+      <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl hover:border-cyan-500/30 transition-colors">
         <strong class="text-white block mb-1">Lean Logistics</strong>
-        <span class="text-slate-400">VSM & 7 Desperdícios</span>
+        <span class="text-zinc-500 text-xs">VSM & Melhoria Contínua</span>
       </div>
-      <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl text-center">
-        <strong class="text-white block mb-1">Sistemas Operacionais</strong>
-        <span class="text-slate-400">WMS & ERP</span>
+      <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl hover:border-cyan-500/30 transition-colors">
+        <strong class="text-white block mb-1">Gestão de Sistemas</strong>
+        <span class="text-zinc-500 text-xs">WMS & Integrações ERP</span>
       </div>
-      <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl text-center">
-        <strong class="text-white block mb-1">Causa Raiz</strong>
-        <span class="text-slate-400">Ishikawa & Pareto</span>
-      </div>
-      <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl text-center">
-        <strong class="text-white block mb-1">Planos de Ação</strong>
-        <span class="text-slate-400">5W2H & Kaizen</span>
-      </div>
-      <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl text-center">
-        <strong class="text-white block mb-1">Gestão de Riscos</strong>
-        <span class="text-slate-400">Matriz de Mitigação</span>
-      </div>
-      <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl text-center">
-        <strong class="text-white block mb-1">Análise de Dados</strong>
-        <span class="text-slate-400">KPIs & Métricas</span>
+      <div class="bg-zinc-900/50 border border-zinc-800 p-5 rounded-2xl hover:border-cyan-500/30 transition-colors">
+        <strong class="text-white block mb-1">Engenharia de Processos</strong>
+        <span class="text-zinc-500 text-xs">Análise de Causa Raiz</span>
       </div>
     </div>
   </section>
 
-  <!-- Contato / Rodapé -->
-  <footer id="contato" class="border-t border-slate-800 bg-slate-950 py-12">
-    <div class="max-w-6xl mx-auto px-6 text-center">
-      <h3 class="text-xl font-bold text-white mb-2">Vamos nos conectar?</h3>
-      <p class="text-xs text-slate-400 mb-6">Aberto a oportunidades e trocas de experiências na área de Logística e Supply Chain.</p>
-      
-      <div class="flex justify-center gap-4 text-xs">
-        <a href="mailto:seu-email@email.com" class="bg-blue-600/10 text-blue-400 border border-blue-500/20 px-4 py-2 rounded-lg font-semibold hover:bg-blue-600/20 transition-all">
-          Enviar E-mail
-        </a>
-        <a href="https://linkedin.com" target="_blank" class="bg-slate-800 text-slate-300 border border-slate-700 px-4 py-2 rounded-lg font-semibold hover:bg-slate-700 transition-all">
-          LinkedIn
-        </a>
-      </div>
-
-      <p class="text-xs text-slate-600 mt-10">
-        © 2026 Carlos Roberto Martins — Desenvolvido com HTML5 & Tailwind CSS
+  <!-- Rodapé -->
+  <footer class="border-t border-zinc-900 bg-zinc-950 py-12 mt-10">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+      <p class="text-xs text-zinc-600">
+        © 2026 Carlos Roberto Martins. Hub de Projetos.
       </p>
+      <div class="flex gap-4 text-xs font-semibold">
+        <!-- Atualize os links aqui depois -->
+        <a href="mailto:seu-email@email.com" class="text-zinc-400 hover:text-white transition-colors">Email</a>
+        <a href="https://linkedin.com" target="_blank" class="text-zinc-400 hover:text-white transition-colors">LinkedIn</a>
+        <a href="https://github.com/carlos-martins-logcode" target="_blank" class="text-zinc-400 hover:text-white transition-colors">GitHub</a>
+      </div>
     </div>
   </footer>
 
